@@ -8,11 +8,17 @@
 ### 🚀 Features
 
 ✅ **Real-time JSON Parsing** — Paste or write JSON and visualize it instantly
+
 ✅ **Error Handling** — Detect invalid JSON input with user-friendly alerts
+
 ✅ **Interactive Tree View** — Built using **React Flow** and **Dagre.js** for auto layout
+
 ✅ **Search & Highlight** — Quickly find and focus on any key or value
+
 ✅ **Temporary Node Preview** — Dynamically preview nodes before final insertion
+
 ✅ **Premium UI** — Glassmorphic, responsive, and elegant light/dark mode design
+
 ✅ **No Scroll Layout** — Fixed view with adaptive scaling for a seamless user experience
 
 ---
@@ -105,10 +111,14 @@ Your app will be live at 👉 **[http://localhost:3000](http://localhost:3000)**
 ### 👨‍💻 Author
 
 **chowdam Tarunkumar**
+
 Full Stack Developer | Java | MERN 
+
 📧 [[tarunchowdam435@gmail.com](mailto:tarunchowdam435@gmail.com)]
+
 🔗 [LinkedIn](https://linkedin.com/in/chowdamtarunkumar) | [GitHub](https://github.com/Tarunchowdam)
 
 ---
+
 
 
