@@ -91,10 +91,10 @@ Your app will be live at 👉 **[http://localhost:3000](http://localhost:3000)**
 
 ### 🎨 UI Highlights
 
-✨ **Glassmorphic Design:** Subtle blur, gradients, and shadows for a premium look
-🌗 **Dual Theme Ready:** Light and dark themes supported (optional toggle)
-🧭 **Auto Layout:** Node positions are automatically managed using Dagre.js
-🔗 **Path Copying:** Clicking a node copies its JSON path to clipboard
+* ✨ **Glassmorphic Design:** Subtle blur, gradients, and shadows for a premium look
+* 🌗 **Dual Theme Ready:** Light and dark themes supported (optional toggle)
+* 🧭 **Auto Layout:** Node positions are automatically managed using Dagre.js
+* 🔗 **Path Copying:** Clicking a node copies its JSON path to clipboard
 
 ---
 
@@ -119,6 +119,7 @@ Full Stack Developer | Java | MERN
 🔗 [LinkedIn](https://linkedin.com/in/chowdamtarunkumar) | [GitHub](https://github.com/Tarunchowdam)
 
 ---
+
 
 
 
