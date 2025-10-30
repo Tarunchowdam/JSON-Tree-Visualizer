@@ -18,7 +18,7 @@ import dagre from "dagre";
 const nodeWidth = 150;
 const nodeHeight = 50;
 
-// 🧠 Layout nodes top-to-bottom using Dagre
+//  Layout nodes top-to-bottom using Dagre.js
 const getLayoutedElements = (nodes, edges, direction = "TB") => {
   const dagreGraph = new dagre.graphlib.Graph();
   dagreGraph.setDefaultEdgeLabel(() => ({}));
@@ -61,7 +61,7 @@ const TreeVisualizer = forwardRef(
       setTimeout(() => instance.fitView({ padding: 0.2 }), 300);
     }, []);
 
-    // 🧭 Layout only once
+    //  Layout only once
     useEffect(() => {
       if (layoutFixed || !initialNodes.length) return;
       const { nodes: layoutedNodes, edges: layoutedEdges } =
@@ -77,7 +77,7 @@ const TreeVisualizer = forwardRef(
       // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [initialNodes, initialEdges]);
 
-    // 👇 Expose methods to parent
+    //  Expose methods to parent
     useImperativeHandle(ref, () => ({
       addTemporaryNode(targetNodeId, newNode) {
         setNodes((nds) => {
@@ -123,7 +123,7 @@ const TreeVisualizer = forwardRef(
       },
     }));
 
-    // ✅ When a node is clicked → copy its path
+    //  When a node is clicked → copy its path
     const handleNodeClick = useCallback(
       async (event, node) => {
         const path = node?.data?.path;

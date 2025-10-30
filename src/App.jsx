@@ -12,7 +12,7 @@ const SAMPLE = `{
     },
     "details": [
       {"mobile":"********"},
-      {"village":"Datthapuram"},
+      {"village":"Datthapuram"},n
       {"college":"RGUKT"}
     ]
   }
